@@ -50,6 +50,31 @@ body {
 	color: #000;
 }
 .auth a:last-of-type:hover {
-	background-color: #00afff;
-	border-color: #00afff;
+	background-color: #1EAEDB;
+	border-color: #1EAEDB;
+	color: #fff;
+}
+
+.jumbotron {
+	height: 450px;
+	background-color: #121429;
+	color: #fff;
+}
+.jumbotext p {
+	font-size: 1.45em;
+	word-spacing: .1em;
+	line-height: 1.8;
+	margin-top: 3.5em;
+}
+.jumbotext .button {
+	color: #000;
+	background-color: #009ada;
+	border-color: #009ada;
+	border-radius: 20px;
+}
+.jumbotron img {
+	width: 85%;
+	display: inline-block;
+	padding-top: 2em;
+	padding-left: 5em;
 }
