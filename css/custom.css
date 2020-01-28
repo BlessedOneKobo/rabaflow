@@ -133,3 +133,35 @@ p {
 	font-weight: bold;
 	font-size: .9em;
 }
+
+/* Features */
+.features {
+	background-color: #121429;
+	color: #fff;
+	padding-top: 3em;
+	padding-bottom: 3em;
+}
+.features h2 {
+	font-size: 1.2em;
+	letter-spacing: .01em;
+	margin-bottom: 1.8em;
+}
+.features img {
+	width: 15%;
+}
+.features h3 {
+	font-size: 1.1em;
+	letter-spacing: .03em;
+	color: #ffa883;
+	margin-top: 1em;
+}
+.features p {
+	font-size: .85em;
+	letter-spacing: .04em;
+}
+.features .button {
+	color: #000;
+	background-color: #009ada;
+	border-color: #009ada;
+	border-radius: 20px;
+}
