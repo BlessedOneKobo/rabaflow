@@ -6,6 +6,10 @@ p {
 	line-height: 1.8;
 }
 
+a {
+	text-decoration: none;
+}
+
 .header {
 	background-color: #131313;
 	font-size: .85em;
@@ -18,7 +22,6 @@ p {
 	text-align: right;
 }
 .header a {
-	text-decoration: none;
 	color: #fdfdfde6;
 	display: inline-block;
 	letter-spacing: 0.05em;
@@ -128,7 +131,6 @@ p {
 }
 .create-account a {
 	text-transform: uppercase;
-	text-decoration: none;
 	color: #000;
 	font-weight: bold;
 	font-size: .9em;
@@ -170,6 +172,7 @@ p {
 footer {
 	padding-top: 3em;
 	padding-bottom: 3em;
+	background-color: #f5fcff;
 }
 footer header {
 	text-align: center;
@@ -199,6 +202,59 @@ footer .button:last-of-type:hover {
 	background-color: #000;
 	border-color: #fff;
 }
-footer .columns:first-of-type, footer .columns:last-of-type {
-	visibility: hidden;
+
+footer section {
+	margin-top: 2.5em;
+	border-top: 1px solid #009ada78;
+	padding-top: 2.5em;
+	padding-left: 5.5em;
+	padding-right: 5.5em;
+}
+footer section ul {
+	list-style: none;
+}
+footer h3 {
+	font-size: .95em;
+	font-weight: bold;
+	letter-spacing: .05em;
+	text-transform: uppercase;
+	margin-top: .7em;
+}
+footer {
+	color: #000;
+	font-size: .85em;
+}
+footer a {
+	color: #000;
+}
+footer p {
+	font-size: 1em;
+}
+.social .links {
+	margin-top: 1em;
+}
+.social .links li {
+	display: inline-block;
+	margin-right: 1em;
+}
+.platform h3 {
+	color: #099ddb;
+}
+.support h3 {
+	color: #ff3302;
+}
+.subscribe h3 {
+	color: #feb18f;
+}
+footer input[type] {
+	width: 100%;
+	border-radius: 0;
+	margin: 0;
+}
+footer input[type='email'] {
+	border-bottom: none;
+}
+footer input[type='submit'] {
+	color: #009ada;
+	border-color: #009ada78;
 }
