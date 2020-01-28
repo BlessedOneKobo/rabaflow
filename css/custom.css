@@ -2,6 +2,10 @@ body {
 	font-family: 'Noto Sans', sans-serif;
 }
 
+p {
+	line-height: 1.8;
+}
+
 .header {
 	background-color: #131313;
 	font-size: .85em;
@@ -63,7 +67,6 @@ body {
 .jumbotext p {
 	font-size: 1.45em;
 	word-spacing: .1em;
-	line-height: 1.8;
 	margin-top: 3.5em;
 }
 .jumbotext .button {
@@ -77,4 +80,56 @@ body {
 	display: inline-block;
 	padding-top: 2em;
 	padding-left: 5em;
+}
+
+/* Info */
+.info {
+	padding-top: 3em;
+	padding-bottom: 3em;
+}
+.info .shield img {
+	width: 75%;
+}
+.info .writeup h2 {
+	font-size: 1.8em;
+	font-weight: bold;
+	color: #009ada;
+}
+
+.seperator {
+	font-size: 1.15em;
+	margin-top: 2.5em;
+	border-top: 1px solid #009ada78;
+	padding-top: 2.5em;
+}
+.seperator p {
+	margin: 0;
+}
+
+.second-info {
+	margin-top: 1.6em;
+}
+.second-info img {
+	margin-bottom: .8em;
+}
+.second-info h3 {
+	font-size: 1.1em;
+	font-weight: bold;
+	line-height: 1.5;
+	margin-bottom: .5em;
+}
+.second-info p {
+	font-size: .85em;
+}
+
+.create-account {
+	border-left: 4px solid red;
+	padding-left: .5em;
+}
+.create-account a {
+	text-transform: uppercase;
+	text-decoration: none;
+	color: #000;
+	font-weight: bold;
+	font-size: .9em;
 }
