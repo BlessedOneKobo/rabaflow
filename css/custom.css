@@ -145,6 +145,68 @@ a {
 	font-size: .9em;
 }
 
+/* Offers */
+.offers {
+	padding-top: 3em;
+	padding-bottom: 3em;
+	background-color: #f5fcff;
+}
+.offers h2 {
+	font-size: 1.8em;
+	font-weight: bold;
+	letter-spacing: .02em;
+}
+.offers h3 {
+	font-size: 1.1em;
+	text-transform: uppercase;
+	font-weight: bold;
+	letter-spacing: .02em;
+}
+.offers p {
+	font-size: .85em;
+	width: 90%;
+}
+.offers img {
+	float: left;
+	width: 15%;
+	margin-right: .8em;
+	margin-left: .5em;
+	margin-top: .5em;
+}
+.offers table {
+	width: 100%;
+	font-size: .75em;
+}
+.offers tbody {
+	background-color: #fff;
+}
+.offers td, .offers th {
+	padding: 0;
+	margin: 0;
+}
+.offers td {
+	padding-top: .25em;
+	padding-bottom: .25em;
+}
+.offers th {
+	padding-bottom: .5em;
+	color: #999;
+}
+.offers .trader {
+	color: #099ddb;
+	font-weight: bold;
+}
+.offers .more-info {
+	float: right;
+	margin-right: .8em;
+	padding-right: .5em;
+	color: #099ddbb8;
+	font-size: 1.2em;
+}
+.offers td:last-child {
+	padding-top: .5em;
+}
+
 /* Features */
 .features {
 	background-color: #121429;
