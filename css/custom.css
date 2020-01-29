@@ -390,13 +390,12 @@ footer input[type='submit'] {
 
 @media (max-width: 550px) {
 	.logo {
-		padding-top: .5em;
+		padding-top: 1em;
+		text-align: center;
+		padding-bottom: 1em;
 	}
 	.logo img {
-		width: 60%;
-	}
-	.nav, .auth {
-		display: none;
+		width: 80%;
 	}
 	.nav a, .auth a {
 		font-size: .9em;
