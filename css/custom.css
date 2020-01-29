@@ -347,10 +347,17 @@ footer input[type='submit'] {
 		font-size: .8em;
 	}
 
+	.jumbotron {
+		height: 440px;
+	}
 	.jumbotron img {
-		width: 100%;
+		width: 80%;
 		text-align: left;
-		padding: 3.7em 0;
+		padding: 4em 0;
+	}
+	.jumbotext p {
+		font-size: 1.16em;
+		margin-top: 6.7em;
 	}
 	footer section {
 		padding-left: .5em;
@@ -379,6 +386,12 @@ footer input[type='submit'] {
 	.nav a {
 		font-size: .58em;
 		padding: 1.8em 1.8em;
+	}
+	.jumbotron p {
+		margin-top: 5.5em;
+	}
+	.jumbotron img {
+		padding-top: 5.5em;
 	}
 	.features a {
 		font-size: .56em;
