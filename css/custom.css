@@ -1,5 +1,6 @@
 body {
 	font-family: 'Noto Sans', sans-serif;
+	background-color: #222;
 }
 
 p {
@@ -14,6 +15,9 @@ a {
 	background-color: #131313;
 	font-size: .85em;
 }
+.logo img {
+	width: 110%;
+}
 .logo, .nav a {
 	padding-top: 1em;
 	padding-bottom: .2em;
@@ -25,6 +29,9 @@ a {
 	color: #fdfdfde6;
 	display: inline-block;
 	letter-spacing: 0.05em;
+}
+.nav {
+	text-align: center;
 }
 .nav a {
 	padding: 1.5em 1.7em;
@@ -41,8 +48,8 @@ a {
 	font-size: .8em;
 	text-align: center;
 	text-transform: uppercase;
-	padding: .8em 1.2em;
-	margin-top: 1.2em;
+	padding: .4em .8em;
+	margin-top: 1.7em;
 	margin-right: .8em;
 	color: #fff;
 }
@@ -63,14 +70,15 @@ a {
 }
 
 .jumbotron {
-	height: 450px;
-	background-color: #121429;
+	height: 600px;
+	background: linear-gradient(to right, hsl(221, 48.2%, 16.7%), #121429);
+	/*background-color: linear-gradient(to right, #000, #fff);*/
 	color: #fff;
 }
 .jumbotext p {
 	font-size: 1.45em;
 	word-spacing: .1em;
-	margin-top: 3.5em;
+	margin-top: 8em;
 }
 .jumbotext .button {
 	color: #000;
@@ -79,19 +87,20 @@ a {
 	border-radius: 20px;
 }
 .jumbotron img {
-	width: 85%;
+	width: 100%;
 	display: inline-block;
-	padding-top: 2em;
-	padding-left: 5em;
+	padding-top: 7em;
+	padding-left: 0;
 }
 
 /* Info */
 .info {
 	padding-top: 3em;
 	padding-bottom: 3em;
+	background-color: #fff;
 }
 .info .shield img {
-	width: 75%;
+	width: 100%;
 }
 .info .writeup h2 {
 	font-size: 1.8em;
@@ -160,6 +169,9 @@ a {
 .features p {
 	font-size: .85em;
 	letter-spacing: .04em;
+}
+.features a {
+	display: inline-block;
 }
 .features .button {
 	color: #000;
